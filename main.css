@@ -14,6 +14,9 @@ html {
     justify-content: center;
     background-color: #212121
 }
+#alt-app {
+    background-color: #ece6e6
+}
 
 .half {
     align-content: stretch;
@@ -57,8 +60,9 @@ html {
     width: 325px;
     border: 2px black solid;
     margin: 10px;
-    background-color: antiquewhite;
+    font-size: 70px;
 }
+
 
 .s_window1 {
     height: 150px;
@@ -81,7 +85,8 @@ html {
     width: 325px;
     border: 2px black solid;
     margin: 10px;
-    background-color: antiquewhite;
+    font-size: 70px;
+   
 }
 
 .toggle-button {
@@ -96,7 +101,3 @@ html {
         display: flex;
         flex-wrap: wrap;
     }
-
-.extra-toggle-button-style {
-
-}
