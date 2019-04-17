@@ -14,7 +14,7 @@ function toggleTheme(event) {
 
     half.classList.toggle('bottom-half');
     bottomHalf.classList.toggle('half');
-    // button.classList.toggle('toggle-button');
+   
 
     // button.innerText = button.innerText === 'SWITCH COLOR'
     //     ? `SWITCH TO START`
