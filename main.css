@@ -1,0 +1,102 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#app {
+    border: 2px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    width: auto;
+    overflow: hidden;
+    justify-content: center;
+    background-color: #212121
+}
+
+.half {
+    align-content: stretch;
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    overflow: hidden scroll;
+    margin-top: 10px;
+    background-image: url(https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500)
+}
+
+
+.bottom-half {
+    align-content: stretch;
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    overflow: hidden scroll;
+    margin-top: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxm_wcF-hdp_c1cHFGv3u8vo27_2xxrojqhfN8QVUHthkb2MD)
+}
+
+
+#head {
+    height: 175px;
+    width: 162px;
+    border: 2px red solid;
+    align-items: flex-end;
+    margin: 10px;
+    
+}
+
+#resume {
+    height: 280px;
+    width: 325px;
+    border: 2px black solid;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.s_window1 {
+    height: 150px;
+    width: 150px;
+    border: 2px red solid;
+    margin: 10px;
+
+}
+
+.s_window2 {
+    height: 150px;
+    width: 150px;
+    border: 2px red solid;
+    margin: 10px;
+   
+}
+
+#projects {
+    height: 500px;
+    width: 325px;
+    border: 2px black solid;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.toggle-button {
+        background: #e0e0e0;
+        color: #212121;
+        font-size: 1.25em;
+        font-weight: 500;
+        border: 0;
+        margin: 6px;
+        border-radius: 2px 2px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.extra-toggle-button-style {
+
+}
